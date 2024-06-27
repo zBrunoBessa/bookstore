@@ -140,4 +140,4 @@ REST_FRAMEWORK = {
 
 DEBUG = int(os.environ.get("DEBUG", default=0))
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'zbessa.pythonanywhere.com']
