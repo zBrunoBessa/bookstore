@@ -17,6 +17,7 @@ django-debug-toolbar = "^4.4.2"
 psycopg2 = "^2.9"
 psycopg2-binary = "^2.9.9"
 flake8 = "^7.1.0"
+gitpython = "^3.1.43"
 
 
 [build-system]
