@@ -49,7 +49,7 @@ MIDDLEWARE = [
 if "test" not in sys.argv:
     MIDDLEWARE.append("debug_toolbar.middleware.DebugToolbarMiddleware")
 
-ROOT_URLCONF = "bookStore.urls"
+ROOT_URLCONF = "bookstore.urls"
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "bookStore.wsgi.application"
+WSGI_APPLICATION = "bookstore.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
